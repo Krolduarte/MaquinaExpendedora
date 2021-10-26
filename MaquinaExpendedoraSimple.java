@@ -25,8 +25,8 @@ public class MaquinaExpendedoraSimple {
     }
 
     
-    public MaquinaExpendedoraSimple(int precioBillete, String destino ){
-        precioBillete = precioBillete;
+    public MaquinaExpendedoraSimple(int precioDelBillete, String destino ){
+        precioBillete = precioDelBillete;
         balanceClienteActual = 0;
         totalDineroAcumulado = 0;
         estacionOrigen = "Leon";
@@ -43,7 +43,13 @@ public class MaquinaExpendedoraSimple {
     public int getPrecioBillete() {
         return precioBillete;
     }
-
+    /**
+     * Permite cambiar el precio del billete
+     */
+    public void setPrecioBillete(int precioDelBillete){
+        precioBillete = precioDelBillete;
+    }
+        
     /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
      */
