@@ -61,8 +61,8 @@ public class MaquinaExpendedoraSimple {
     /**
      * Permite reducir el valor del precio en una cantidad pasado como parametro
      */
-    public void ReducirPrecioBillete(int precioDelBillete) {
-        precioBillete = precioBillete - precioDelBillete;
+    public void reducirPrecioBillete(int CantidadAReducir) {
+        precioBillete = precioBillete - CantidadAReducir;
      }
     
     
