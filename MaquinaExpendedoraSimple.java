@@ -44,6 +44,15 @@ public class MaquinaExpendedoraSimple {
         return precioBillete;
     }
     
+    
+    //**
+     /* Permite simular el proceso de extraer todo el dinero acumulado
+     */
+    public int vaciarDepositoDinero() {
+        return totalDineroAcumulado = 0;
+    }
+    
+    
     /**
      * Permite cambiar el precio del billete
      */
