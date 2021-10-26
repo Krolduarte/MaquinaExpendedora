@@ -43,6 +43,7 @@ public class MaquinaExpendedoraSimple {
     public int getPrecioBillete() {
         return precioBillete;
     }
+    
     /**
      * Permite cambiar el precio del billete
      */
@@ -56,6 +57,15 @@ public class MaquinaExpendedoraSimple {
     public int getBalanceClienteActual() {
         return balanceClienteActual;
     }
+    
+    /**
+     * Permite reducir el valor del precio en una cantidad pasado como parametro
+     */
+    public void ReducirPrecioBillete(int precioDelBillete) {
+        precioBillete = precioBillete - precioDelBillete;
+     }
+    
+    
 
     /**
      * Simula la introduccion de dinero por parte del cliente actual
