@@ -48,8 +48,8 @@ public class MaquinaExpendedoraSimple {
     //**
      /* Permite simular el proceso de extraer todo el dinero acumulado
      */
-    public int vaciarDepositoDinero() {
-        return totalDineroAcumulado = 0;
+    public void vaciarDepositoDinero() {
+        totalDineroAcumulado = 0;
     }
     
     
